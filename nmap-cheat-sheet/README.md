@@ -1,10 +1,10 @@
-# 🛡️ Nmap Ultimate Master Notes
+# Nmap Ultimate Master Notes
 
 A comprehensive guide for network discovery, port scanning, and performance tuning. 
 
 ---
 
-## 📍 1. Local & Remote Network Discovery
+## 1. Local & Remote Network Discovery
 *Find out which devices are alive on the network.*
 
 ### Local Network Scan
@@ -21,7 +21,7 @@ A comprehensive guide for network discovery, port scanning, and performance tuni
 
 ---
 
-## 🔍 2. Port Scanning Techniques
+## 2. Port Scanning Techniques
 *Identify open ports and services on a target.*
 
 
@@ -41,7 +41,7 @@ A comprehensive guide for network discovery, port scanning, and performance tuni
 
 ---
 
-## 🛠️ 3. Service & OS Intelligence
+## 3. Service & OS Intelligence
 *Determine what software and operating system the target is using.*
 
 * `nmap -O 192.168.124.211` — **OS Detection:** Guess the operating system/kernel version.
@@ -53,7 +53,7 @@ A comprehensive guide for network discovery, port scanning, and performance tuni
 
 ---
 
-## ⚡ 4. Timing & Stealth
+## 4. Timing & Stealth
 *Control how fast or slow Nmap runs to avoid detection or network congestion.*
 
 ### Timing Templates (`-T`)
@@ -74,7 +74,7 @@ A comprehensive guide for network discovery, port scanning, and performance tuni
 
 ---
 
-## 📝 5. Verbosity & Output Logging
+## 5. Verbosity & Output Logging
 *Track your scan and save results for documentation.*
 
 ### Verbosity (Console Detail)
@@ -91,7 +91,7 @@ A comprehensive guide for network discovery, port scanning, and performance tuni
 
 ---
 
-## 🚀 6. Real-World Pro-Combos
+## 6. Real-World Pro-Combos
 ```bash
 # Aggressive scan, skip discovery, all ports
 nmap -sS -sV -Pn -p- 192.168.124.211
