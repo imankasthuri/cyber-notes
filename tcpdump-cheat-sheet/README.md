@@ -1,9 +1,9 @@
-# 🕵️ tcpdump: The Complete Command Masterlist
+# tcpdump: The Complete Command Masterlist
 *Comprehensive guide for network analysis using real-world syntax and filters.*
 
 ---
 
-## 🛠️ 1. Essential Setup & Operation
+## 1. Essential Setup & Operation
 *Basic commands to control where you listen and how you save data.*
 
 ### Identify the Interface
@@ -22,7 +22,7 @@
 
 ---
 
-## 🔍 2. Powerful Filtering Expressions
+## 2. Powerful Filtering Expressions
 *Use these to isolate specific traffic in real scenarios.*
 
 ### Filtering by Host
@@ -44,7 +44,7 @@
 
 ---
 
-## ⚙️ 3. Advanced Binary & Flag Filtering
+## 3. Advanced Binary & Flag Filtering
 *Deep packet inspection using bitwise operations.*
 
 
@@ -62,7 +62,7 @@
 
 ---
 
-## 📊 4. Formatting & Inspection
+## 4. Formatting & Inspection
 *Change how the raw data is displayed in your terminal.*
 
 * `tcpdump -r TwoPackets.pcap -q` — **Quick:** Brief info (IPs, Ports, and Length only).
@@ -73,7 +73,7 @@
 
 ---
 
-## 🚀 5. Real-World One-Liners
+## 5. Real-World One-Liners
 
 ```bash
 # Count how many packets came from a specific host in a capture file
